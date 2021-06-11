@@ -21,7 +21,7 @@ process.maxEvents = cms.untracked.PSet(
 
 # Input source
 process.source = cms.Source("LHESource",
-    fileNames = cms.untracked.vstring('file:bigOut12_Test.lhe')
+    fileNames = cms.untracked.vstring('file:Y1S3S11_total_shortTest_11_June_2021.lhe')
 )
 
 process.options = cms.untracked.PSet(
@@ -30,7 +30,7 @@ process.options = cms.untracked.PSet(
 
 # Production Info
 process.configurationMetadata = cms.untracked.PSet(
-    annotation = cms.untracked.string('Configuration/GenProduction/python/standardFragment.py nevts:44'),
+    annotation = cms.untracked.string('Configuration/GenProduction/python/standardFragment.py nevts:598'),
     name = cms.untracked.string('Applications'),
     version = cms.untracked.string('$Revision: 1.19 $')
 )
